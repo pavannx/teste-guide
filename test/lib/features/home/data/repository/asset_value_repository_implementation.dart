@@ -21,7 +21,6 @@ class AssetsValueRepositoryImplementation implements AssetsValueRepository {
       return result.assets;
     } catch (e) {
       throw Exception(e);
-      //TODO: tratar erro;
     }
   }
 }
